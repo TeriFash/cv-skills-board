@@ -4,8 +4,8 @@ class Footer extends Component {
   render() {
     return (
       <footer className="App-footer">
-        <h2>Find me on:</h2>
-        <div className="FindMe" id="contact">
+        <h2>
+          Find me on:
           <a
             href="https://github.com/TeriFash"
             target="_blanck"
@@ -13,7 +13,8 @@ class Footer extends Component {
           >
             GitHub
           </a>
-        </div>
+        </h2>
+        <div className="FindMe" id="contact" />
       </footer>
     );
   }

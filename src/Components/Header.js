@@ -20,7 +20,15 @@ class Header extends Component {
     return (
       <div>
         <header className="App-header">
-          <h1>Teri Fash</h1>
+          <h1>
+            <a
+              target="_blanck"
+              className="App-Link"
+              href="https://terifash.pro"
+            >
+              Teri Fash
+            </a>
+          </h1>
         </header>
       </div>
     );

@@ -62,6 +62,24 @@ const skills = {
     },
     {
       type: "frontend",
+      title: "PostCSS",
+      text: "PostCSS",
+      img: "https://cdn.svgporn.com/logos/postcss.svg"
+    },
+    {
+      type: "frontend",
+      title: "Less",
+      text: "Less",
+      img: "https://cdn.svgporn.com/logos/less.svg"
+    },
+    {
+      type: "frontend",
+      title: "styled components",
+      text: "Styled components",
+      img: "https://terifash.pro/images/skills-icon/styled-components.png"
+    },
+    {
+      type: "frontend",
       title: "Pug",
       text: "pug",
       img: "https://cdn.svgporn.com/logos/pug.svg"
@@ -200,6 +218,18 @@ const skills = {
     },
     {
       type: "backend",
+      title: "REST API",
+      text: "REST API",
+      img: "https://terifash.pro/images/skills-icon/rest-api.svg"
+    },
+    {
+      type: "backend",
+      title: "AJAX",
+      text: "AJAX",
+      img: "https://terifash.pro/images/skills-icon/ajax.svg"
+    },
+    {
+      type: "backend",
       title: "Firebase",
       text: "Firebase",
       img: "https://cdn.svgporn.com/logos/firebase.svg"
@@ -229,7 +259,7 @@ const skills = {
       img: "https://cdn.svgporn.com/logos/docker-icon.svg"
     },
     {
-      type: "frontend",
+      type: "",
       title: "",
       text: "",
       img: "https://cdn.svgporn.com/logos/1.svg"
@@ -321,6 +351,12 @@ const skills = {
       title: "Hubspot",
       text: "Hubspot",
       img: "https://cdn.svgporn.com/logos/hubspot.svg"
+    },
+    {
+      type: "managment",
+      title: "Redmine",
+      text: "Redmine",
+      img: "https://terifash.pro/images/skills-icon/redmine.png"
     }
   ],
   other: [

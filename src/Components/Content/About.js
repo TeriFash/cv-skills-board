@@ -7,11 +7,11 @@ class About extends Component {
         <h3>About Me</h3>
         <p>
           Hello everyone reading this{" "}
-          <span role="img" aria-label="Sparkles">
-            &#10024;
+          <span role="img" aria-label="hugging face">
+            🤗
           </span>
           . As the header implies, my name is Viktor and I'm a Front-end
-          developer (and sometimes full-stack) from uruguay.
+          developer (and sometimes full-stack) from Ukraine.
         </p>
         <p>
           I've been working for a couple of years with web technologies (since
@@ -22,11 +22,16 @@ class About extends Component {
           .
         </p>
         <p>
-          Nowadays I'm working at a private company as a developer
+          Nowadays I'm working{" "}
+          <span role="img" aria-label="hummer">
+            🔨
+          </span>
+          at a private company as a developer
           <span role="img" aria-label="fire">
             &#128293;
           </span>
-          , where I use technologies such as VueJs, CordovaJs CSS3, HTML5, ES6
+          , where I use technologies such as ES6+, Vue.js, Vuetify, Cordova.js,
+          Firebase, and much more...
         </p>
       </div>
     );
