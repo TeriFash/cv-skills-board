@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/cv-skills-board/static/css/main.a9da1011.chunk.css",
-    "main.js": "/cv-skills-board/static/js/main.eb1d2684.chunk.js",
-    "main.js.map": "/cv-skills-board/static/js/main.eb1d2684.chunk.js.map",
-    "runtime-main.js": "/cv-skills-board/static/js/runtime-main.350a7e97.js",
-    "runtime-main.js.map": "/cv-skills-board/static/js/runtime-main.350a7e97.js.map",
-    "static/js/2.81b77f3b.chunk.js": "/cv-skills-board/static/js/2.81b77f3b.chunk.js",
-    "static/js/2.81b77f3b.chunk.js.map": "/cv-skills-board/static/js/2.81b77f3b.chunk.js.map",
-    "static/js/3.f3827773.chunk.js": "/cv-skills-board/static/js/3.f3827773.chunk.js",
-    "static/js/3.f3827773.chunk.js.map": "/cv-skills-board/static/js/3.f3827773.chunk.js.map",
+    "main.css": "/cv-skills-board/static/css/main.7d6a7bee.chunk.css",
+    "main.js": "/cv-skills-board/static/js/main.df43d248.chunk.js",
+    "main.js.map": "/cv-skills-board/static/js/main.df43d248.chunk.js.map",
+    "runtime-main.js": "/cv-skills-board/static/js/runtime-main.341f3213.js",
+    "runtime-main.js.map": "/cv-skills-board/static/js/runtime-main.341f3213.js.map",
+    "static/js/2.f362a28c.chunk.js": "/cv-skills-board/static/js/2.f362a28c.chunk.js",
+    "static/js/2.f362a28c.chunk.js.map": "/cv-skills-board/static/js/2.f362a28c.chunk.js.map",
+    "static/js/3.71965f09.chunk.js": "/cv-skills-board/static/js/3.71965f09.chunk.js",
+    "static/js/3.71965f09.chunk.js.map": "/cv-skills-board/static/js/3.71965f09.chunk.js.map",
     "index.html": "/cv-skills-board/index.html",
-    "static/css/main.a9da1011.chunk.css.map": "/cv-skills-board/static/css/main.a9da1011.chunk.css.map",
-    "static/js/2.81b77f3b.chunk.js.LICENSE.txt": "/cv-skills-board/static/js/2.81b77f3b.chunk.js.LICENSE.txt",
+    "static/css/main.7d6a7bee.chunk.css.map": "/cv-skills-board/static/css/main.7d6a7bee.chunk.css.map",
+    "static/js/2.f362a28c.chunk.js.LICENSE.txt": "/cv-skills-board/static/js/2.f362a28c.chunk.js.LICENSE.txt",
     "static/media/App.css": "/cv-skills-board/static/media/wave.fde40988.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.350a7e97.js",
-    "static/js/2.81b77f3b.chunk.js",
-    "static/css/main.a9da1011.chunk.css",
-    "static/js/main.eb1d2684.chunk.js"
+    "static/js/runtime-main.341f3213.js",
+    "static/js/2.f362a28c.chunk.js",
+    "static/css/main.7d6a7bee.chunk.css",
+    "static/js/main.df43d248.chunk.js"
   ]
 }
