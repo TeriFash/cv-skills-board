@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/cv-skills-board/static/css/main.fd5b9266.chunk.css",
-    "main.js": "/cv-skills-board/static/js/main.00e95b97.chunk.js",
-    "main.js.map": "/cv-skills-board/static/js/main.00e95b97.chunk.js.map",
+    "main.css": "/cv-skills-board/static/css/main.2ec972af.chunk.css",
+    "main.js": "/cv-skills-board/static/js/main.1cac80ca.chunk.js",
+    "main.js.map": "/cv-skills-board/static/js/main.1cac80ca.chunk.js.map",
     "runtime-main.js": "/cv-skills-board/static/js/runtime-main.350a7e97.js",
     "runtime-main.js.map": "/cv-skills-board/static/js/runtime-main.350a7e97.js.map",
     "static/js/2.81b77f3b.chunk.js": "/cv-skills-board/static/js/2.81b77f3b.chunk.js",
@@ -10,13 +10,14 @@
     "static/js/3.f3827773.chunk.js": "/cv-skills-board/static/js/3.f3827773.chunk.js",
     "static/js/3.f3827773.chunk.js.map": "/cv-skills-board/static/js/3.f3827773.chunk.js.map",
     "index.html": "/cv-skills-board/index.html",
-    "static/css/main.fd5b9266.chunk.css.map": "/cv-skills-board/static/css/main.fd5b9266.chunk.css.map",
-    "static/js/2.81b77f3b.chunk.js.LICENSE.txt": "/cv-skills-board/static/js/2.81b77f3b.chunk.js.LICENSE.txt"
+    "static/css/main.2ec972af.chunk.css.map": "/cv-skills-board/static/css/main.2ec972af.chunk.css.map",
+    "static/js/2.81b77f3b.chunk.js.LICENSE.txt": "/cv-skills-board/static/js/2.81b77f3b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/cv-skills-board/static/media/wave.fde40988.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.350a7e97.js",
     "static/js/2.81b77f3b.chunk.js",
-    "static/css/main.fd5b9266.chunk.css",
-    "static/js/main.00e95b97.chunk.js"
+    "static/css/main.2ec972af.chunk.css",
+    "static/js/main.1cac80ca.chunk.js"
   ]
 }
