@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cv-skills-board/static/css/main.663674f2.chunk.css",
+    "main.css": "/cv-skills-board/static/css/main.a20b4233.chunk.css",
     "main.js": "/cv-skills-board/static/js/main.f0f5016f.chunk.js",
     "main.js.map": "/cv-skills-board/static/js/main.f0f5016f.chunk.js.map",
     "runtime-main.js": "/cv-skills-board/static/js/runtime-main.a8c1a09e.js",
@@ -8,13 +8,13 @@
     "static/js/2.81b77f3b.chunk.js": "/cv-skills-board/static/js/2.81b77f3b.chunk.js",
     "static/js/2.81b77f3b.chunk.js.map": "/cv-skills-board/static/js/2.81b77f3b.chunk.js.map",
     "index.html": "/cv-skills-board/index.html",
-    "static/css/main.663674f2.chunk.css.map": "/cv-skills-board/static/css/main.663674f2.chunk.css.map",
+    "static/css/main.a20b4233.chunk.css.map": "/cv-skills-board/static/css/main.a20b4233.chunk.css.map",
     "static/js/2.81b77f3b.chunk.js.LICENSE.txt": "/cv-skills-board/static/js/2.81b77f3b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a8c1a09e.js",
     "static/js/2.81b77f3b.chunk.js",
-    "static/css/main.663674f2.chunk.css",
+    "static/css/main.a20b4233.chunk.css",
     "static/js/main.f0f5016f.chunk.js"
   ]
 }
