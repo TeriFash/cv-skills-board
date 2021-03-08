@@ -46,7 +46,7 @@ const skills = {
       type: "frontend",
       title: "Gatsby",
       text: "gatsby",
-      url: 'https://www.gatsbyjs.com/',
+      url: 'https://gatsbyjs.com/',
       img: "https://cdn.svgporn.com/logos/gatsby.svg"
     },
     {
@@ -61,14 +61,14 @@ const skills = {
       title: "D3",
       text: "D3",
       url: 'https://d3js.org/',
-      img: "https://cdn.svgporn.com/logos/lodash.svg"
+      img: "https://cdn.svgporn.com/logos/d3.svg"
     },
     {
       type: "frontend",
       title: "Lodash",
       text: "Lodash",
       url: 'https://lodash.com/',
-      img: "https://cdn.svgporn.com/logos/d3.svg"
+      img: "https://cdn.svgporn.com/logos/lodash.svg"
     },
     {
       type: "frontend",
@@ -102,7 +102,7 @@ const skills = {
       type: "frontend",
       title: "Less",
       text: "Less",
-      url: 'http://lesscss.org/',
+      url: 'https://lesscss.org/',
       img: "https://cdn.svgporn.com/logos/less.svg"
     },
     {
@@ -165,7 +165,7 @@ const skills = {
       type: "frontend",
       title: "Flat UI",
       text: "flat-ui",
-      url: 'http://designmodo.github.io/Flat-UI/',
+      url: 'https://designmodo.github.io/Flat-UI/',
       img: "https://cdn.svgporn.com/logos/flat-ui.svg"
     },
     {
@@ -186,7 +186,7 @@ const skills = {
       type: "frontend",
       title: "PixiJS",
       text: "pixijs",
-      url: 'https://www.pixijs.com/',
+      url: 'https://pixijs.com/',
       img: "https://cdn.svgporn.com/logos/pixijs.svg"
     },
     {
@@ -221,14 +221,14 @@ const skills = {
       type: "frontend",
       title: "React-spring",
       text: "react-spring",
-      url: 'https://www.react-spring.io/',
+      url: 'https://react-spring.io/',
       img: "https://cdn.svgporn.com/logos/react-spring.svg"
     },
     {
       type: "frontend",
       title: "Webpack",
       text: "Webpack",
-      url: 'http://webpack.github.io/',
+      url: 'https://webpack.github.io/',
       img: "https://cdn.svgporn.com/logos/webpack.svg"
     },
     {
@@ -249,14 +249,14 @@ const skills = {
       type: "tools",
       title: "Passport",
       text: "passportjs",
-      url: 'http://www.passportjs.org/',
+      url: 'https://passportjs.org/',
       img: "https://cdn.svgporn.com/logos/passport.svg"
     },
     {
       type: "frontend",
       title: "Npm",
       text: "npm",
-      url: 'https://www.npmjs.com/',
+      url: 'https://npmjs.com/',
       img: "https://cdn.svgporn.com/logos/npm-icon.svg"
     },
     {
@@ -305,14 +305,14 @@ const skills = {
       type: "backend",
       title: "Express",
       text: "Express",
-      url: 'http://expressjs.com/',
+      url: 'https://expressjs.com/',
       img: "https://cdn.svgporn.com/logos/express.svg"
     },
     {
       type: "backend",
       title: "WebSocket",
       text: "Websocket",
-      url: 'https://www.w3.org/TR/websockets/',
+      url: 'https://w3.org/TR/websockets/',
       img: "https://cdn.svgporn.com/logos/websocket.svg"
     },
     {
@@ -326,7 +326,7 @@ const skills = {
       type: "backend",
       title: "REST API",
       text: "REST API",
-      url: 'https://www.wikiwand.com/uk/REST',
+      url: 'https://wikiwand.com/uk/REST',
       img: "https://terifash.pro/images/skills-icon/rest-api.svg"
     },
     {
@@ -354,28 +354,28 @@ const skills = {
       type: "backend",
       title: "Apollo",
       text: "apollo",
-      url: 'https://www.apollographql.com/',
+      url: 'https://apollographql.com/',
       img: "https://cdn.svgporn.com/logos/apollostack.svg"
     },
     {
       type: "backend",
       title: "Postman",
       text: "postman",
-      url: 'https://www.postman.com/',
+      url: 'https://postman.com/',
       img: "https://cdn.svgporn.com/logos/postman.svg"
     },
     {
       type: "backend",
       title: "Digital-ocean",
       text: "Digital-ocean",
-      url: 'https://www.digitalocean.com/',
+      url: 'https://digitalocean.com/',
       img: "https://cdn.svgporn.com/logos/digital-ocean.svg"
     },
     {
       type: "backend",
       title: "Heroku",
       text: "Heroku",
-      url: 'https://www.heroku.com/',
+      url: 'https://heroku.com/',
       img: "https://cdn.svgporn.com/logos/heroku-icon.svg"
     },
     {
@@ -389,7 +389,7 @@ const skills = {
       type: "backend",
       title: "Docker",
       text: "docker",
-      url: 'https://www.docker.com/',
+      url: 'https://docker.com/',
       img: "https://cdn.svgporn.com/logos/docker-icon.svg"
     },
     
@@ -420,7 +420,7 @@ const skills = {
       type: "tools",
       title: "Figma",
       text: "Figma",
-      url: 'https://www.figma.com/',
+      url: 'https://figma.com/',
       img: "https://cdn.svgporn.com/logos/figma.svg"
     },
     {
@@ -434,21 +434,21 @@ const skills = {
       type: "tools",
       title: "Invision",
       text: "Invision",
-      url: 'https://www.invisionapp.com/',
+      url: 'https://invisionapp.com/',
       img: "https://cdn.svgporn.com/logos/invision-icon.svg"
     },
     {
       type: "tools",
       title: "WebStorm",
       text: "Webstorm",
-      url: 'https://www.jetbrains.com/webstorm/',
+      url: 'https://jetbrains.com/webstorm/',
       img: "https://cdn.svgporn.com/logos/webstorm.svg"
     },
     {
       type: "tools",
       title: "PHPStorm",
       text: "phpstorm",
-      url: 'https://www.jetbrains.com/phpstorm/',
+      url: 'https://jetbrains.com/phpstorm/',
       img: "https://cdn.svgporn.com/logos/phpstorm.svg"
     },
     {
@@ -469,14 +469,14 @@ const skills = {
       type: "tools",
       title: "SublimeText",
       text: "sublimetext",
-      url: 'https://www.sublimetext.com/',
+      url: 'https://sublimetext.com/',
       img: "https://cdn.svgporn.com/logos/sublimetext-icon.svg"
     },
     {
       type: "tools",
       title: "GitKraken",
       text: "gitkraken",
-      url: 'https://www.gitkraken.com/',
+      url: 'https://gitkraken.com/',
       img: "https://cdn.svgporn.com/logos/gitkraken.svg"
     }
   ],
@@ -485,14 +485,14 @@ const skills = {
       type: "managment",
       title: "Jira",
       text: "Jira",
-      url: 'https://www.atlassian.com/ru/software/jira',
+      url: 'https://atlassian.com/ru/software/jira',
       img: "https://cdn.svgporn.com/logos/jira.svg"
     },
     {
       type: "managment",
       title: "Confluence",
       text: "Confluence",
-      url: 'https://www.atlassian.com/ru/software/confluence',
+      url: 'https://atlassian.com/ru/software/confluence',
       img: "https://cdn.svgporn.com/logos/confluence.svg"
     },
     {
@@ -520,14 +520,14 @@ const skills = {
       type: "managment",
       title: "Hubspot",
       text: "Hubspot",
-      url: 'https://www.hubspot.com/',
+      url: 'https://hubspot.com/',
       img: "https://cdn.svgporn.com/logos/hubspot.svg"
     },
     {
       type: "managment",
       title: "Redmine",
       text: "Redmine",
-      url: 'https://www.redmine.org/',
+      url: 'https://redmine.org/',
       img: "https://terifash.pro/images/skills-icon/redmine.png"
     },
     {

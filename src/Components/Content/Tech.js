@@ -14,16 +14,16 @@ function TechSkills(props) {
     //   }
     // }
     return (
-      <div key={i} className="grid-item main">
+      <a key={i} target="_blanck" href={skill.url} className="grid-item main">
         <img src={skill.img} alt={skill.text} title={skill.title} />
-      </div>
+      </a>
     );
   });
 
   return (
     <React.Fragment>
       <h5 className="skills-header">{props.title}</h5>
-      <div className="grid-conteiner">{skillItem}</div>
+      <div className="grid-container">{skillItem}</div>
     </React.Fragment>
   );
 }
