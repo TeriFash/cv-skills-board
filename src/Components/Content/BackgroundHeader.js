@@ -12,6 +12,5 @@ class BackgroundHeader extends Component {
     );
   }
 }
-// 4c4eb5
-// 5c5edc
+
 export default BackgroundHeader;

@@ -537,7 +537,39 @@ const skills = {
       url: 'https://mattermost.org/',
       img: "https://cdn.svgporn.com/logos/mattermost-icon.svg"
     }
-  ]
+  ],
+  socialLinks: [
+    {
+      link: 'https://linkedin.com/in/viktor-gura/',
+      title: 'LinkedIn',
+      text: 'linkedin',
+      icon: 'linkedin',
+    },
+    {
+      link: 'https://github.com/TeriFash',
+      title: 'GitHub',
+      text: 'github',
+      icon: 'github',
+    },
+    {
+      link: 'https://telegram.im/@TeriFash',
+      title: 'Telegram',
+      text: 'telegram',
+      icon: 'chat-text-fill',
+    },
+    // {
+    //   link: 'https://www.facebook.com/profile.php?id=100015717390714',
+    //   title: 'FaceBook',
+    //   text: 'facebook',
+    //   icon: 'fab fa-facebook'
+    // },
+    {
+      link: '',
+      title: 'Resume',
+      text: 'resume',
+      icon: 'file-earmark-text-fill',
+    },
+  ],
 };
 
 export default skills;

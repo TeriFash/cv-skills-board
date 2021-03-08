@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+// import SocialLink from "./Content/SocialLink";
 
 class Footer extends Component {
   render() {
@@ -14,6 +15,7 @@ class Footer extends Component {
           >
             GitHub
           </a>
+          {/* <SocialLink /> */}
         </h5>
         </div>
       </footer>
