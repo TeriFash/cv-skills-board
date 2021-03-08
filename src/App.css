@@ -1,8 +1,15 @@
 
+:root {
+--body-bg: #e8f1fa;
+--body-color: rgba(70, 76, 95, 1);
+--body-color-hover: rgba(70, 76, 95, .9);
+--color-white: rgba(232, 241, 250, 1);
+}
 
 .App {
   height: 100%;
   width: 100%;
+  color: var(--body-color);
 }
 
 .App-header {
@@ -17,12 +24,11 @@
   opacity: 1;
 }
 
-.App-header .App-Link {
-  color: rgba(232, 241, 250, 1);
-}
-
-.App-header .App-Link:hover, .App-header .App-Link:focus, .App-header .App-Link:active {
-  color: rgba(232, 241, 250, 1);
+.App-header .App-Link, 
+.App-header .App-Link:hover, 
+.App-header .App-Link:focus, 
+.App-header .App-Link:active {
+  color: var(--color-white);
 }
 
 .Background-Header {
@@ -56,8 +62,18 @@
   width: 100%;
 }
 
+.App-footer, .App-Content {
+  box-shadow: 8px 8px 20px 0 rgba(108, 141, 194, 0.28),
+  -8px -8px 22px 0 rgba(255, 255, 255, 0.82);
+}
+
+.App-footer:hover, .App-Content:hover {
+  box-shadow: 8px 8px 20px 0 rgba(108, 141, 194, 0.38),
+    -8px -8px 22px 0 rgba(255, 255, 255, 0.72);
+}
+
 .App-footer {
-  background-color: #e8f1fa;
+  background-color: var(--body-bg);
   min-height: 10vh;
   display: flex;
   flex-direction: row;
@@ -65,13 +81,12 @@
   align-items: center;
   font-size: calc(5px + 2vmin);
   margin-bottom: 0;
-  border: rgba(255, 255, 255, 0.22) 1px solid;
-  box-shadow: 8px 8px 20px 0 rgba(108, 141, 194, 0.28),
-    -8px -8px 22px 0 rgba(255, 255, 255, 0.82);
+  border-top: #e2effc 1px solid;
+  
 }
 
-.App-footer .contact {
-  color: rgba(70, 76, 95, 0.9);
+.App-footer .FindMe a {
+  color: var(--body-color-hover);
   margin: 0 10px;
 }
 
@@ -89,13 +104,15 @@
   display: flex;
   margin: 8%;
   margin-top: 2.2%;
-  background-color: #e8f1fa;
+  background-color: var(--body-bg);
+  color: var(--body-color);
   border-radius: 10px;
+  border: #e2effc 1px solid;
   padding: 5%;
   text-align: left;
   flex-direction: column;
-  box-shadow: 8px 8px 20px 0 rgba(108, 141, 194, 0.28),
-    -8px -8px 22px 0 rgba(255, 255, 255, 0.82);
+  transition: all .5s;
+  
 }
 
 .Tech {
@@ -112,29 +129,28 @@
   margin-top: 5vw;
 }
 
+.Main-Header h5 {
+  margin-bottom: 0px;
+}
+
+.Main-Header h1 {
+  margin-top: 10px;
+}
+
 .App-Link {
   margin: 15px;
   transition: color 0.5s ease-in-out;
-  /* color: rgb(0, 162, 255); */
   text-decoration: none;
-  color: rgba(70, 76, 95, 1);
 }
 
 .App-Link:hover {
-  /* text-decoration: underline; */
-  /* color: rgb(0, 102, 255); */
   text-decoration: none;
   border: none;
   outline: none;
-  color: rgba(70, 76, 95, 0.6);
 }
 
 .academy {
   margin: 0;
-}
-
-.header {
-  color: rgb(70, 76, 95);
 }
 
 .contact {
