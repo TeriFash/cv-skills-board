@@ -2,6 +2,7 @@
   "name": "cv-skills-board",
   "version": "2.0.0",
   "description": "This board visualizer skills Teri Fash",
+  "homepage": "http://terifash.github.io/cv-skills-board",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
