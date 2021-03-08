@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import BackgroundHeader from "./Content/BackgroundHeader";
 
 class Header extends Component {
   constructor(props) {
@@ -18,8 +19,9 @@ class Header extends Component {
 
   render() {
     return (
-      <div>
+      <>
         <header className="App-header">
+        <BackgroundHeader />
           <h1>
             <a
               target="_blanck"
@@ -30,7 +32,7 @@ class Header extends Component {
             </a>
           </h1>
         </header>
-      </div>
+      </>
     );
   }
 }

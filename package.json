@@ -1,13 +1,13 @@
 {
   "name": "react-skills-board",
-  "version": "1.0.0",
-  "description": "This board visualise my skills portfolio",
+  "version": "2.0.0",
+  "description": "This board visualizer skills Teri Fash",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "react": "16.12.0",
-    "react-dom": "16.12.0",
-    "react-scripts": "3.0.1"
+    "react": "latest",
+    "react-dom": "latest",
+    "react-scripts": "latest"
   },
   "devDependencies": {
     "typescript": "3.3.3"
