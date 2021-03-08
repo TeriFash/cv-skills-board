@@ -540,22 +540,22 @@ const skills = {
   ],
   socialLinks: [
     {
-      link: 'https://linkedin.com/in/viktor-gura/',
-      title: 'LinkedIn',
-      text: 'linkedin',
-      icon: 'linkedin',
-    },
-    {
       link: 'https://github.com/TeriFash',
       title: 'GitHub',
       text: 'github',
       icon: 'github',
     },
     {
+      link: 'https://linkedin.com/in/viktor-gura/',
+      title: 'LinkedIn',
+      text: 'linkedin',
+      icon: 'linkedin',
+    },
+    {
       link: 'https://telegram.im/@TeriFash',
       title: 'Telegram',
       text: 'telegram',
-      icon: 'chat-text-fill',
+      icon: 'telegram',
     },
     // {
     //   link: 'https://www.facebook.com/profile.php?id=100015717390714',
@@ -563,12 +563,12 @@ const skills = {
     //   text: 'facebook',
     //   icon: 'fab fa-facebook'
     // },
-    {
-      link: '',
-      title: 'Resume',
-      text: 'resume',
-      icon: 'file-earmark-text-fill',
-    },
+    // {
+    //   link: '',
+    //   title: 'Resume',
+    //   text: 'resume',
+    //   icon: 'file-earmark-text-fill',
+    // },
   ],
 };
 

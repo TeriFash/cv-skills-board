@@ -32,13 +32,6 @@
   color: var(--color-white);
 }
 
-.Background-Header {
-  /* position: absolute;
-            top: -10vw;
-            left:0;
-            right:0; */
-}
-
 .App-Nav {
   display: flex;
   flex-direction: row;
@@ -85,9 +78,29 @@
   
 }
 
-.App-footer .FindMe a {
+.App-footer .FindMe .FindMe-text {
+  margin-right: 15px;
+  font-weight: 600;
+}
+
+.App-footer .FindMe .App-Link {
+  margin: 0;
+  margin-right: 10px;
   color: var(--body-color-hover);
-  margin: 0 10px;
+}
+
+.App-footer .FindMe .App-Link svg {
+  transition: color .5s;
+}
+
+.App-Link:hover svg[data-icon="github"] {
+  color: black;
+}
+.App-Link:hover svg[data-icon="linkedin"] {
+  color: #0A66C2;
+}
+.App-Link:hover svg[data-icon="telegram"] {
+  color: #2D9FD7;
 }
 
 .App-main {

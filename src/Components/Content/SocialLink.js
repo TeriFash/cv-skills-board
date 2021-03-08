@@ -1,37 +1,16 @@
-import React, { Component } from "react";
+import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faGithub, faLinkedin, faTelegram } from '@fortawesome/free-brands-svg-icons'
 import data from "./../../data";
 
-class SocialLink extends Component {
-  state = {
-    socialLinks: data.socialLinks
-  };
-  render() {
+const SocialLinkElem = () => {
+  const { socialLinks } = data
+  return socialLinks.map((item, i) => {
     return (
-      <div className="Social-link">
-      
-      {/* (this.socialLinks.map(item => {
-        return (<a className="App-Link contact" target="_blanck" key={item} href={item.url}>
-          <FontAwesomeIcon  icon={item.icon} />;
-        <a/>)
-      })) */}
-     
-      </div>
+      <a className="App-Link contact" target="_blanck" key={i} href={item.link}>
+        <FontAwesomeIcon icon={['fab', item.icon]} />
+      </a>
     );
-  }
+  });
 }
 
-{/* export default function EmptyCart() {
-  return (
-    <div className="container mt-5">
-      <div className="row">
-        <div className="col-10 mx-auto text-center text-title">
-          <h1>Your cart is currently empty</h1>
-        </div>
-      </div>
-    </div>
-  );
-} */}
-
-export default SocialLink;
+export default SocialLinkElem;
