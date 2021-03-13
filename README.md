@@ -17,6 +17,11 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 🚚 Builds the app for production to the `build` folder. and add serve settings through execution `yarn global add serve` and `serve -s build`<br />
 
 
+> `yarn deploy`
+
+🛍️ Builds the app for production to the `build` folder. and add git pages settings `yarn predeploy add deploy`<br />
+
+
 > `yarn eject`
 
 ✍ If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
