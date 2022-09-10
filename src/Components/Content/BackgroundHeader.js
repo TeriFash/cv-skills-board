@@ -8,8 +8,8 @@ class BackgroundHeader extends Component {
   }
   render() {
     return (
-      <div className="Background-header">
-        <div className="Background-header-wrapper">
+      <div className={"Background-header"}>
+        <div className={"Background-header-wrapper"}>
           <div className="ocean">
             <div className="wave"></div>
             <div className="wave"></div>
