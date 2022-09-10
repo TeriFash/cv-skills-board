@@ -9,6 +9,13 @@ export const skills = {
     },
     {
       type: "frontend",
+      title: "TypeScript",
+      text: "TypeScript",
+      url: 'https://www.typescriptlang.org/',
+      img: "https://cdn.svgporn.com/logos/typescript-icon.svg"
+    },
+    {
+      type: "frontend",
       title: "React",
       text: "React",
       url: 'https://reactjs.org/',
