@@ -1,18 +1,8 @@
 import React, { Component } from "react";
-import skills from "../../data";
+import { skillsList } from "utils";
 
-function TechSkills(props) {
-  const skillItem = props.skills.map((skill, i) => {
-    // const skillSwitch = (val) => {
-    //   switch (val) {
-    //     case '1':
-    //       return (1)
-    //     case '2':
-    //       return (2)
-    //     default:
-    //       return (3)
-    //   }
-    // }
+function TechSkills({data, title}) {
+  const skillItem = data.map((skill, i) => {
     return (
       <a key={i} target="_blanck" href={skill.url} className="grid-item main">
         <img src={skill.img} alt={skill.text} title={skill.title} />
@@ -22,20 +12,23 @@ function TechSkills(props) {
 
   return (
     <React.Fragment>
-      <h5 className="skills-header">{props.title}</h5>
+      <h5 className="skills-header">{title}</h5>
       <div className="grid-container">{skillItem}</div>
     </React.Fragment>
   );
 }
 
+
 class Tech extends Component {
   render() {
+    const mainText = 'I like to work with technologies such as:';
+
     return (
       <div className="App-Content" id="tech">
-        <h3>I like to work with technologies such as:</h3>
-        <TechSkills title="Technology" skills={skills.hard} />
-        <TechSkills title="Tools" skills={skills.soft} />
-        <TechSkills title="Managment" skills={skills.managment} />
+        <h3>{mainText}</h3>
+        <TechSkills {...skillsList[0] } />
+        <TechSkills {...skillsList[1] } />
+        <TechSkills {...skillsList[2] } />
       </div>
     );
   }

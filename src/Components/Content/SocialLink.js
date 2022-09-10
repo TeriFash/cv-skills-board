@@ -1,13 +1,14 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import data from "./../../data";
+import { socialLinkParser } from "utils";
 
 const SocialLinkElem = () => {
-  const { socialLinks } = data
+  const socialLinks = socialLinkParser();
+  
   return socialLinks.map((item, i) => {
     return (
       <a className="App-Link contact" target="_blanck" key={i} href={item.link}>
-        <FontAwesomeIcon icon={['fab', item.icon]} />
+        <FontAwesomeIcon icon={item.icon} />
       </a>
     );
   });

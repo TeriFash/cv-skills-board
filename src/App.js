@@ -1,21 +1,21 @@
 import React from "react";
 import './App.css';
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import Main from "./Components/Main";
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import Header from "components/Header.js";
+import Footer from "components/Footer.js";
+import Main from "components/Main.js";
 
-library.add(fab)
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
 
-function App() {
+library.add(fab, fas)
+
+export default function App() {
   return (
-    <div className="App">
+    <div className='App'>
         <Header />
         <Main />
         <Footer />
     </div>
   );
 }
-
-export default App;

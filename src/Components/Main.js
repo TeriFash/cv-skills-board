@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 
-import Tech from "./Content/Tech";
-import About from "./Content/About";
-import MainHeader from "./Content/MainHeader";
+import Tech from "./content/Tech";
+import About from "./content/About";
+import MainHeader from "./content/MainHeader";
 
 class Main extends Component {
   render() {

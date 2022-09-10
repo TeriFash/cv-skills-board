@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import BackgroundHeader from "./Content/BackgroundHeader";
+import BackgroundHeader from "./content/BackgroundHeader";
 
 class Header extends Component {
   constructor(props) {
@@ -19,10 +19,9 @@ class Header extends Component {
 
   render() {
     return (
-      <>
-        <header className="App-header">
-        <BackgroundHeader />
-          <h1>
+      <header className="App-header" id="header">
+        <BackgroundHeader>
+        <h1 className="App-header-brand">
             <a
               target="_blanck"
               className="App-Link"
@@ -30,9 +29,9 @@ class Header extends Component {
             >
               Teri Fash
             </a>
-          </h1>
-        </header>
-      </>
+        </h1>
+        </BackgroundHeader>
+      </header>
     );
   }
 }
