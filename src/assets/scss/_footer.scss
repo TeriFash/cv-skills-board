@@ -1,0 +1,47 @@
+.App-footer {
+  background-color: var(--body-bg);
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(5px + 2vmin);
+  margin-bottom: 0;
+  border-top: #e2effc 1px solid;
+ 
+  & .App-Link {
+    &:hover svg,
+    &:focus svg,
+    &:active svg {
+      &[data-icon='github'] {
+        color: black;
+      }
+      &[data-icon='linkedin'] {
+        color: #0a66c2;
+      }
+      &[data-icon='telegram'] {
+        color: #2d9fd7;
+      }
+      
+    }
+  }
+
+  & .FindMe {
+    & .FindMe-text {
+      margin-right: 15px;
+      font-weight: 600;
+    }
+
+    & .App-Link {
+      margin: 0;
+      margin-right: 10px;
+      color: var(--body-color-hover);
+
+      & svg {
+        transition: color 0.5s ease-in-out;
+      }
+    }
+  }
+}
+
+

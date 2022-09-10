@@ -1,44 +1,7 @@
-/* -------- */
-
-:root {
-  --body-bg: #e8f1fa;
-  --body-color: rgba(70, 76, 95, 1);
-  --body-color-hover: rgba(70, 76, 95, 0.9);
-  --color-white: rgba(232, 241, 250, 1);
-}
-
 .App {
   height: 100%;
   width: 100%;
   color: var(--body-color);
-}
-
-.App-header {
-  text-align: center;
-  background-color: transparent;
-  display: flex;
-  flex-direction: row;
-  align-items: left;
-  justify-content: flex-start;
-  opacity: 1;
-}
-
-.App-header .App-Link,
-.App-header .App-Link:hover,
-.App-header .App-Link:focus,
-.App-header .App-Link:active {
-  color: var(--color-white);
-}
-
-.Background-header .App-header-brand {
-  z-index: 1;
-  padding: 2% 6%;
-  text-align: left;
-}
-
-.App-header-brand .App-Link {
-  font-size: calc(23px + 2vmin);
-  margin-left: 0;
 }
 
 .App-Nav {
@@ -62,55 +25,6 @@
   z-index: 2;
   position: absolute;
   width: 100%;
-}
-
-.App-footer,
-.App-Content {
-  box-shadow: 8px 8px 20px 0 rgba(108, 141, 194, 0.28),
-    -8px -8px 22px 0 rgba(255, 255, 255, 0.82);
-}
-
-.App-footer:hover,
-.App-Content:hover {
-  box-shadow: 8px 8px 20px 0 rgba(108, 141, 194, 0.38),
-    -8px -8px 22px 0 rgba(255, 255, 255, 0.72);
-}
-
-.App-footer {
-  background-color: var(--body-bg);
-  min-height: 10vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  font-size: calc(5px + 2vmin);
-  margin-bottom: 0;
-  border-top: #e2effc 1px solid;
-}
-
-.App-footer .FindMe .FindMe-text {
-  margin-right: 15px;
-  font-weight: 600;
-}
-
-.App-footer .FindMe .App-Link {
-  margin: 0;
-  margin-right: 10px;
-  color: var(--body-color-hover);
-}
-
-.App-footer .FindMe .App-Link svg {
-  transition: color 0.5s;
-}
-
-.App-Link:hover svg[data-icon='github'] {
-  color: black;
-}
-.App-Link:hover svg[data-icon='linkedin'] {
-  color: #0a66c2;
-}
-.App-Link:hover svg[data-icon='telegram'] {
-  color: #2d9fd7;
 }
 
 .App-main {
@@ -207,9 +121,10 @@
 .Background-header {
   position: relative;
   display: block;
-  /* width: 100%; */
+  width: 100%;
+  min-height: 260px;
   height: fit-content;
-  width: 100vw;
+  /* width: 100vw; */
 }
 
 .Background-header-wrapper {
@@ -228,12 +143,12 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: #4c4eb5;
+  background: var(--body-bg-primary);
   transform: scale(1, -1);
 }
 
 .Background-header-wrapper .wave {
-  background: url(./Img/wave.svg) repeat-x;
+  background: url(./assets/images/wave.svg) repeat-x;
   position: absolute;
   top: -197px;
   width: 6400px;
@@ -269,10 +184,6 @@
 }
 
 @media (max-width: 600px) {
-  body {
-    /* background-size: 100% 18%; */
-  }
-
   .App-header h1 {
     margin-top: 0;
     font-size: 1.5em;

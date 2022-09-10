@@ -1,12 +1,19 @@
-import { faTelegram, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"; //faFacebook
-import skills from "data";
+import { faTelegram, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"; // faFacebook
+import { skills } from "assets/data";
 
-const icons = { GitHub: faGithub, Telegram: faTelegram, Linkedin: faLinkedin}
+
 const socialNetworkLinks = {
   GitHub: 'https://github.com/TeriFash',
   Telegram: 'https://telegram.im/@TeriFash',
   Linkedin: 'https://linkedin.com/in/viktor-gura/'
   // Facebook: 'https://www.facebook.com/profile.php?id=100015717390714'
+};
+
+const socialNetworkIcons = { 
+  GitHub: faGithub, 
+  Telegram: faTelegram, 
+  Linkedin: faLinkedin 
+  // Facebook: faFacebook
 };
 
 export const socialLinkParser = () => {
@@ -16,11 +23,11 @@ export const socialLinkParser = () => {
     link: socialNetworkLinks[key],
     title: key,
     text: key.toLowerCase(),
-    icon: icons[key]
+    icon: socialNetworkIcons[key]
   }));
 };
 
-const sortSkils = value => {
+const sortSkills = value => {
   const types = Object.keys(value);
   let list = [];
 
@@ -56,4 +63,4 @@ const sortSkils = value => {
   return list;
 };
 
-export const skillsList = sortSkils(skills);
+export const skillsList = sortSkills(skills);

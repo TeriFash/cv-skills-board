@@ -1,4 +1,4 @@
-const skills = {
+export const skills = {
   hard: [
     {
       type: "frontend",
@@ -539,5 +539,3 @@ const skills = {
     }
   ],
 };
-
-export default skills;

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import 'assets/scss/_header.scss'
 import BackgroundHeader from "./content/BackgroundHeader";
 
 class Header extends Component {

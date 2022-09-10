@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { skillsList } from "utils";
+import { skillsList } from "utils"; 
 
 function TechSkills({data, title}) {
   const skillItem = data.map((skill, i) => {
@@ -24,12 +24,12 @@ class Tech extends Component {
     const mainText = 'I like to work with technologies such as:';
 
     return (
-      <div className="App-Content" id="tech">
+      <section className={'App-Content'}>
         <h3>{mainText}</h3>
         <TechSkills {...skillsList[0] } />
         <TechSkills {...skillsList[1] } />
         <TechSkills {...skillsList[2] } />
-      </div>
+      </section>
     );
   }
 }

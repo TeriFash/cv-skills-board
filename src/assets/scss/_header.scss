@@ -1,0 +1,31 @@
+.App-header {
+  text-align: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  opacity: 1;
+
+  & a,
+  & .App-Link {
+    color: var(--color-white);
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: var(--color-white-hover);
+    }
+  }
+}
+
+.App-header-brand {
+  z-index: 1;
+  padding: 2% 6%;
+  text-align: left;
+
+  & .App-Link {
+    font-size: calc(23px + 2vmin);
+    margin-left: 0;
+  }
+}

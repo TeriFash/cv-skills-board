@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class About extends Component {
   render() {
     return (
-      <div className="App-Content" id="about">
+      <section className={"App-Content"}>
         <h3>About Me</h3>
         <p>
           Hello everyone reading this{" "}
@@ -33,7 +33,7 @@ class About extends Component {
           , where I use technologies such as ES6+, Vue.js, Vuetify, Cordova.js,
           Firebase, and much more...
         </p>
-      </div>
+      </section>
     );
   }
 }

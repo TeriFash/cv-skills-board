@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import 'assets/scss/_footer.scss'
 import SocialLink from "./content/SocialLink";
 
 class Footer extends Component {
