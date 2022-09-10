@@ -1,4 +1,5 @@
 import React from "react";
+import 'assets/scss/_appLink.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { socialLinkParser } from "utils";
 

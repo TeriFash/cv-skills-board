@@ -63,10 +63,10 @@ class Main extends Component {
     );
   };
 
-  // componentWillUnmount() {
-  //   Events.scrollEvent.remove("begin");
-  //   Events.scrollEvent.remove("end");
-  // }
+  componentWillUnmount() {
+    // Events.scrollEvent.remove("begin");
+    Events.scrollEvent.remove("end");
+  }
   render() {
     this.scrollToWithContainer();
     return (

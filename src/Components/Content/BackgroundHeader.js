@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import 'assets/scss/_backgroundHeader.scss';
 
 class BackgroundHeader extends Component {
   constructor(props) {

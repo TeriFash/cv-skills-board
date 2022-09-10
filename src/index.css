@@ -10,9 +10,11 @@
   --color-white-hover: rgba(213, 231, 248, 0.952);
   --scrollbar-track-shadow-color: rgba(0, 0, 0, 0.3);
   /* --scrollbar-track-bg-color: #3d3d3d; #161616 */
-   --scrollbar-track-bg-color: #161616; 
-   --scrollbar-bg-color: #333;
-   --scrollbar-thumb-bg-color: #ccc;
+  --scrollbar-track-bg-color: #161616;
+  --scrollbar-bg-color: #333;
+  --scrollbar-thumb-bg-color: #ccc;
+
+  --bg-img-url: url(assets/images/wave.svg);
 }
 
 body {
@@ -33,19 +35,22 @@ code {
     monospace;
 }
 
-*::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 3px var(--scrollbar-track-shadow-color);
+body::-webkit-scrollbar-track,
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
   border-radius: 2px;
-  background-color: var(--scrollbar-track-bg-color);
+  background-color: #161616;
 }
 
-*::-webkit-scrollbar {
+body::-webkit-scrollbar,
+::-webkit-scrollbar {
   width: 4px;
-  background-color: var(--scrollbar-bg-color);
+  background-color: #333;
 }
 
-*::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb {
   border-radius: 2px;
-  box-shadow: inset 0 0 3px var(--scrollbar-track-shadow-color);
-  background-color: var(--scrollbar-track-bg-color);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  background-color: #161616;
 }
